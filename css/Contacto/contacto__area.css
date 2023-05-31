@@ -1,0 +1,13 @@
+.contacto__area{
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+    align-items: center;
+}
+
+@media screen and (max-width:1024px) { 
+    .contacto__area{
+        width: 100%;
+        justify-content: center;
+    }
+}

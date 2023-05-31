@@ -1,0 +1,20 @@
+.contacto__imagen--area{
+    display: flex;
+    width: 464px;
+    height: 593px;    
+    margin: 0 16px 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contacto__imagen--tel{
+    background-image: url(./../../img/contacto.jpg)
+}
+
+/*para tablet*/
+@media screen and (max-width:1024px) { 
+    .contacto__imagen--area{
+        display: none;
+    }
+}

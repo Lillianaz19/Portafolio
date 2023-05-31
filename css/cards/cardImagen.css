@@ -1,0 +1,68 @@
+.card__imagen{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card__imagen--html5{
+    background-image: url(./../../img/iconos/html-5.png)
+}
+
+.card__imagen--js{
+    background-image: url(./../../img/iconos/js.png)
+}
+
+.card__imagen--css{
+    background-image: url(./../../img/iconos/css-3.png)
+}
+
+.card__imagen--react{
+    background-image: url(./../../img/iconos/react.png)
+}
+
+.card__imagen--nodejs{
+    background-image: url(./../../img/iconos/nodejs.png)
+}
+
+.card__imagen--python{
+    background-image: url(./../../img/iconos/python.png)
+}
+
+.card__imagen--figma{
+    background-image: url(./../../img/iconos/figma.png)
+}
+
+.card__imagen--videojuegos{
+    background-image: url(./../../img/iconos/gamepad.png)
+}
+
+.card__imagen--dibujo{
+    background-image: url(./../../img/iconos/pencil.png)
+}
+
+.card__imagen--mascotas{
+    background-image: url(./../../img/iconos/pets.png)
+}
+
+.card__imagen--naturaleza{
+    background-image: url(./../../img/iconos/leaf.png)
+}
+
+.card__imagen--bisuteria{
+    background-image: url(./../../img/iconos/bracelet.png)
+}
+
+.card__imagen--fotos{
+    background-image: url(./../../img/iconos/camera.png)
+}
+
+@media screen and (max-width:1024px) {
+    .card__imagen{
+        height: 65px;
+        width: 65px;
+    }
+}

@@ -1,0 +1,15 @@
+.proyectos__area{
+    display: flex;
+    padding-left: 88px;
+    padding-right: 88px;
+    margin: 77px 64px;
+    flex-direction: column;
+}
+
+/*para tablet*/
+@media screen and (max-width:1024px) { 
+    .proyectos__area{
+        margin: 0;
+        padding: 32px;
+    }
+}

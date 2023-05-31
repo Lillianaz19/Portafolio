@@ -1,0 +1,41 @@
+.bigCard{
+    display: flex;
+    flex-direction: column;
+    margin-right: 16px;
+    width: 368px;
+}
+
+.bigCard__titulo{
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.bigCard__fechas{
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+/*para tablet*/
+@media screen and (max-width:1024px) { 
+    .bigCard{
+        width: auto;
+        height: auto;
+    }
+    
+    .bigCard__titulo{
+        font-size: 16px;
+    }
+    
+    .bigCard__fechas{
+        font-size: 14px;
+    }
+}
+
+/*para celular*/
+@media screen and (max-width:768px) {
+    .bigCard{
+        margin-bottom: 24px;
+        width: 100%;
+    }
+}

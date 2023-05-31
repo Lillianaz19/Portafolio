@@ -1,0 +1,28 @@
+.proyecto__area{
+    display: flex;
+    width: auto;
+    flex-direction: row;
+    vertical-align:middle;
+    margin: 32px 0;
+}
+
+.proyecto__area:first-child{
+    margin-top: 0;
+}
+
+.proyecto__area:nth-child(2n){
+    flex-direction:row-reverse;
+    justify-content: space-between;
+}
+
+/*para tablet*/
+@media screen and (max-width:1024px) { 
+    .proyecto__area{
+        flex-direction: column;
+        margin: 32px 0;
+    }   
+
+    .proyecto__area:nth-child(2n){
+        flex-direction:column;
+    }
+}

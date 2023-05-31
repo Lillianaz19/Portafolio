@@ -1,0 +1,20 @@
+.areaCards{
+    display: flex;
+    margin: 77px 152px;
+    width: auto;
+    flex-direction: column;
+}
+
+/*para tablet*/
+@media screen and (max-width:1024px) {
+    .areaCards{
+        margin: 32px;
+    }
+}
+
+/*para celular*/
+@media screen and (max-width:768px) {
+    .areaCards{
+        margin: 16px;
+    }
+}

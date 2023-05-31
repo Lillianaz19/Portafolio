@@ -1,0 +1,15 @@
+.formacionAcademica{
+    display: flex;
+    background: #7194A8;
+    height: auto;
+    padding: 82px 152px;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*para tablet*/
+@media screen and (max-width:1024px) { 
+    .formacionAcademica{
+        padding: 32px;
+    }
+}

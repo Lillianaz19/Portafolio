@@ -1,0 +1,33 @@
+.proyecto__area--texto{
+    display: flex;
+    width: 368px;
+    margin: auto 0;
+    color: #f5f5f5;
+    flex-direction: column;
+}
+
+.proyecto__texto{
+    margin-bottom: 8px;
+}
+
+.proyecto__texto--titulo{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.proyecto__texto--procedencia{
+    font-size: 16px;
+    font-weight:500;
+}
+
+.proyecto__texto--descripcion{
+    font-size: 16px;
+    font-weight:300;
+}
+
+/*para tablet*/
+@media screen and (max-width:1024px) { 
+    .proyecto__area--texto{
+        width: 100%;
+    }
+}

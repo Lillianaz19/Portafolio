@@ -1,0 +1,12 @@
+.proyecto{
+    display: flex;
+    margin-top: 32px;
+    flex-direction: column;
+}
+
+/*para celular*/
+@media screen and (max-width:768px) {
+    .proyecto{
+        margin-top: 0;
+    }
+}

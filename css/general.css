@@ -1,0 +1,48 @@
+.general{
+    background-color: #09496D;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #F5F5F5;
+}
+
+.general__titulo{
+    font-weight: 600;
+    font-size: 32px;
+    margin: 0 auto 16px auto;
+}
+
+.general__btnTipo1{
+    font-family: 'Montserrat', sans-serif;
+    background: #09496D;
+    border-width: 1px;
+    border-color:#ffffff;
+    color: #ffffff;
+    padding: 1rem;
+    transition: all .1s ease-in-out;
+}
+
+.general__btnTipo1:hover{
+    cursor: pointer;
+    background: #c7cdd0;
+}
+
+.general__btnTipo2{
+    font-family: 'Montserrat', sans-serif;
+    background: #ffffff;
+    border: none;
+    color: #1E3E4C;
+    padding: 1rem;
+    transition: all .1s ease-in-out;
+}
+
+.general__btnTipo2:hover{
+    cursor: pointer;
+    background: #dfe3e5;
+}
+
+/*para tablet*/
+@media screen and (max-width:1024px) {  
+    .general__titulo{
+        font-size: 22px;
+    }
+}

@@ -1,0 +1,38 @@
+.proyecto__video{
+    background: #09496D;
+    width: 720px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#proyecto__videoDemo--encriptador{
+    width:720px; 
+    height:550px;
+}
+
+.proyecto__btnCerrarVideo{
+    display: flex;
+    height: 30px;
+    width: 30px;
+
+    background: #09496D;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-image: url(./../../img/iconos/remove-button.png)
+}
+
+/*para celular*/
+@media screen and (max-width:768px) {
+    .proyecto__video{
+        height: 385px;
+        width: 450px; 
+    }
+
+    #proyecto__videoDemo--encriptador{
+        height:390px;
+        width: 450px; 
+    }
+}

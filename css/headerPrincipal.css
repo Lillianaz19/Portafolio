@@ -1,0 +1,79 @@
+.headerPrincipal .container{
+    display: flex;
+    width: 1136px;
+    height: 103px;
+    margin: auto 64px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.headerPrincipal__titulo{
+    display: flex;
+}
+
+.headerPrincipal__titulo--nombre{
+    text-decoration: none;
+    color: #F5F5F5;
+    font-weight: 700;
+}
+
+.headerPrincipal__nav{
+    display: flex;
+}
+
+.headerPrincipal__nav--link{
+    display: flex;
+    padding: 16px;
+    text-decoration: none;
+    color: #F5F5F5;
+}
+
+.headerPrincipal__nav--link:hover{
+    transform: scale(1.1);
+    color: #c7cdd0;
+    transition: all .1s ease-in-out;
+}
+
+.headerPrincipal__email{
+    display: none;
+}
+
+/*para tablet*/
+@media screen and (max-width:1024px) {  
+    .headerPrincipal .container{
+        width: auto;
+        margin: 0;
+        padding: 8px 32px;
+    }
+
+    .headerPrincipal__nav{
+        /*para que desaparezca*/
+        display: none;
+    } 
+
+    .headerPrincipal__email{
+        display: flex;
+        text-decoration: none;
+        color: #F5F5F5;
+        font-weight: 600;
+    }
+    
+    .headerPrincipal__email:hover{
+        text-decoration: underline;
+        color: #c7cdd0;
+        transition: all .1s ease-in-out;
+    }
+}
+
+/*para celular*/
+@media screen and (max-width:768px) {
+    .headerPrincipal .container{
+        padding: 4px 16px;
+    }
+
+    .headerPrincipal__email{
+        font-weight:400;
+        font-size: 14px;
+    }
+}

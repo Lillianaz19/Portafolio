@@ -1,0 +1,99 @@
+.introduccion{
+    display: flex;
+    margin: 77px 152px;
+    width: 1136px;
+    height: 368px;
+    align-items: center;
+}
+
+.introduccion__presentacion{
+   display: flex;
+   flex-direction: column;
+}
+
+.introduccion__presentacion--saludo{
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.introduccion__presentacion--descripcion{
+    font-size: 22px;
+    padding: 24px 0px;
+    font-weight: 400;
+}
+
+.introduccion__redes{
+    display: flex;
+}
+
+.introduccion__presentacion--redes--redSocial{
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 32px;
+}
+
+.introduccion__presentacion--redes--redSocial--link{
+    text-decoration: none;
+    color: #f5f5f5;
+}
+
+.introduccion__presentacion--redes--redSocial--link:hover{
+    color: #c7cdd0;
+    transition: all .1s ease-in-out;
+}
+
+.introduccion__foto{
+    width: 368px;
+    margin: 0;
+    border-radius: 100%;
+}
+
+/*para tablet*/
+@media screen and (max-width:1024px) {  
+    .introduccion{
+        display: flex;
+        margin: 32px;
+        width: auto;
+        height: auto;
+    }
+
+    .introduccion__presentacion--saludo{
+        font-size: 22px;
+    }
+    
+    .introduccion__presentacion--descripcion{
+        font-size: 16px;
+    } 
+
+    .introduccion__foto{
+        width: 146px;
+        margin-left: 32px;
+    }
+}
+
+/*para celular*/
+@media screen and (max-width:768px) {
+    .introduccion{
+        margin: 16px;
+        flex-direction: column-reverse;
+        align-items: start;     
+    }   
+
+    .introduccion__presentacion{
+        margin-top: 16px;    
+    }
+    
+    .introduccion__presentacion--descripcion{
+        font-size: 14px;
+    } 
+
+    .introduccion__presentacion--redes--redSocial{
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .introduccion__foto{
+        width: 98px;
+        margin: 0;
+    }
+}

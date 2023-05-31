@@ -1,0 +1,58 @@
+.bigCard__areaImagen{
+    background: #f5fdf5fd;
+    display: flex;
+    height: 286px;
+    margin-bottom: 8px;
+}
+
+.bigCard__areaImagen:hover{
+    transform: scale(1.05);
+    transition: all .1s ease-in-out;
+}
+
+.bigCard__imagen{
+    height: 254px;
+    width: 316px;
+    margin: auto;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:auto;
+}
+
+.bigCard__imagen--alura{
+    background-image: url(./../../img/iconos/aluraLogo.png)
+}
+
+.bigCard__imagen--cursosVarios{
+    background-image: url(./../../img/iconos/mortarboard.png)
+}
+
+/*para tablet*/
+@media screen and (max-width:1024px) { 
+    .bigCard__areaImagen{
+        height: 118px;
+        width: 224px;
+    }
+
+    .bigCard__imagen{
+        height: 50px;
+        width: 119px;
+    
+    }
+}
+
+/*para tablet*/
+@media screen and (max-width:1024px) {  
+    .bigCard__imagen--alura{
+        background-image: url(./../../img/iconos/aluraLogo-tablet.png)
+    }
+}
+
+/*para celular*/
+@media screen and (max-width:768px) {
+    .bigCard__areaImagen{
+        width: 100%;
+    }
+
+}

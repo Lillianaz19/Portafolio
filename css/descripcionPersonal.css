@@ -1,0 +1,47 @@
+.descripcionPersonal{
+    background: #7194A8;
+    height: auto;
+    padding: 64px 0 64px 64px;
+}
+
+.container{
+    display: flex;
+    padding-left: 88px;
+    padding-right: 88px;
+    width: 751px;
+    flex-direction: column;
+}
+
+.descripcionPersonal__titulo{
+    margin-left: 0px;
+}
+
+.descripcionPersonal__contenido{
+    font-size: 16px;
+}
+
+/*para tablet*/
+@media screen and (max-width:1024px) {
+    .descripcionPersonal{
+        padding: 32px;
+    }
+
+    .container{
+        padding: 0;
+    }
+}
+
+/*para celular*/
+@media screen and (max-width:768px) {
+    .descripcionPersonal{
+        padding: 16px;
+    }
+    
+    .container{
+        width: 100%;
+    }
+
+    .descripcionPersonal__contenido{
+        font-size: 14px;
+    }
+}

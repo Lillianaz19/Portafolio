@@ -1,0 +1,24 @@
+.proyecto__boton{
+    margin-right: 8px
+}
+
+.proyecto__boton--repositorio{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 10;
+    text-decoration: none;
+    color: #F5F5F5;
+    margin: auto 1em auto 0;
+    padding: 1rem;
+    transition: all .1s ease-in-out;
+}
+.proyecto__boton--repositorio--caja{
+    padding: 1rem;
+    border: 1px solid #ffffff;
+    background: #09496D;
+}
+
+.proyecto__boton--repositorio:hover{
+    cursor: pointer;
+    background: #c7cdd0;
+}

@@ -1,0 +1,13 @@
+.footer{
+    display: flex;
+    height: auto;
+    text-align: center;
+    flex-direction: column;
+    padding: 32px;
+}
+
+.footer__texto{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.3;
+}
